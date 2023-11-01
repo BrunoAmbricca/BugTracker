@@ -1,0 +1,38 @@
+<diagram program="umletino" version="15.1"><zoom_level>6</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>372</x><y>237</y><w>126</w><h>114</h></coordinates><panel_attributes>Issue
+-
+- code: string
+- summary: string
+- description: string
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>498</x><y>513</y><w>126</w><h>114</h></coordinates><panel_attributes>User
+-
+- name: string
+- email: string
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>624</x><y>237</y><w>126</w><h>114</h></coordinates><panel_attributes>Project
+-
+- name: string
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>492</x><y>279</y><w>144</w><h>24</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n
+m2= 1</panel_attributes><additional_attributes>10;10;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>426</x><y>345</y><w>84</w><h>240</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n
+are assigned to </panel_attributes><additional_attributes>10;10;10;380;120;380</additional_attributes></element><element><id>Relation</id><coordinates><x>618</x><y>345</y><w>114</w><h>246</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n
+m2=0..n
+Is part of</panel_attributes><additional_attributes>120;10;120;380;10;380</additional_attributes></element><element><id>UMLClass</id><coordinates><x>162</x><y>237</y><w>126</w><h>114</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+IssuePriority
+-
++LOW
++MEDIUM
++HIGH</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>282</x><y>285</y><w>102</w><h>24</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>372</x><y>51</y><w>126</w><h>114</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+IssueStatus
+-
++OPEN
++CLOSED</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>426</x><y>159</y><w>24</w><h>90</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>345</y><w>66</w><h>216</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+is submitted by</panel_attributes><additional_attributes>80;330;10;330;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>162</x><y>57</y><w>126</w><h>114</h></coordinates><panel_attributes>&lt;&lt;Enum&gt;&gt;
+IssueType
+-
++BUG
++IMPLEMENTATION</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>282</x><y>129</y><w>102</w><h>150</h></coordinates><panel_attributes>lt=&lt;-
+m1=1</panel_attributes><additional_attributes>10;10;80;10;80;230;150;230</additional_attributes></element></diagram>
